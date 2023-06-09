@@ -1,0 +1,5 @@
+package com.example.model1;
+
+public class ZipcodeTO {
+
+}

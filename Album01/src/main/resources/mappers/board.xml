@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.model.BoardDAO">
+	
+	<select id="boardList" resultType="com.example.model.BoardTO">
+		SELECT seq, subject, writer, mail, password, cmt, cmtyes, hit, wip, wdate
+		FROM album_cmt_board2
+		ORDER BY seq DESC
+	</select>
+	
+	<select id="boardView" parameterType="int" resultType="com.example.model.BoardTO">
+		SELECT seq, subject, writer, mail, password, cmt, cmtyes, hit, wip, wdate
+		FROM album_cmt_board2
+		WHERE seq=#{seq}
+	</select>
+
+	<update id="increaseHit" parameterType="int">
+		UPDATE album_cmt_board2
+		SET hit=hit+1
+		WHERE seq=#{seq}
+	</update>
+
+	<insert id="boardWrite" parameterType="com.example.model.BoardTO">
+		INSERT INTO album_cmt_board2
+		(subject, writer, mail, password, cmt, cmtyes, hit, wip, wdate)
+		VALUES ( #{subject}, #{writer}, #{mail}, #{password}, #{cmt}, #{cmtyes}, 0, #{wip}, NOW() )
+	</insert>
+
+	<select id="boardModify" parameterType="int" resultType="com.example.model.BoardTO">
+		SELECT seq, subject, writer, mail, password, cmt, cmtyes, hit, wip, wdate
+		FROM album_cmt_board2
+		WHERE seq=#{seq}
+	</select>
+	
+	<update id="boardModifyOk" parameterType="com.example.model.BoardTO">
+		UPDATE album_cmt_board2
+		SET subject=#{subject}, writer=#{writer}, mail=#{mail}, password=#{password}, cmt=#{cmt}, cmtyes=#{cmtyes}, hit=#{hit}, wip=#{wip}
+		WHERE seq=#{seq}
+	</update>
+	
+	<delete id="boardDeleteOk" parameterType="com.example.model.BoardTO">
+		DELETE FROM album_cmt_board2
+		WHERE seq=#{seq} AND password=#{password}
+	</delete>
+</mapper>

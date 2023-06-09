@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;design_albumcmt03&apos; to &apos;mariadb&apos;&#x0D;&#x0A;- Original project: &apos;AlbumEx01&apos;&#x0D;&#x0A;- Destination element: &apos;mariadb&apos;&#x0D;&#x0A;- Original element: &apos;design_albumcmt03&apos;" description="Copy folder" element1="src/main/webapp/mariadb/design_albumcmt03" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1686274993170" target="/AlbumEx01/src/main/webapp/mariadb" units="0" version="1.0"/>
+</session>

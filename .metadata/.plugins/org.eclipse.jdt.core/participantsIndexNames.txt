@@ -1,0 +1,37 @@
+INDEX VERSION 1.132
+D:\JAVA\kic_boot workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\594974046.index
+\AlbumEx01\src\main\java
+D:\JAVA\kic_boot workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3970377908.index
+\web011\src\main\java
+D:\JAVA\kic_boot workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2256563356.index
+\BootMail\src\main\java
+D:\JAVA\kic_boot workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3048203561.index
+\Album01\src\main\java
+D:\JAVA\kic_boot workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3749106189.index
+\web011\src\main\java
+D:\JAVA\kic_boot workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\426876837.index
+\AlbumEx01\src\main\java
+D:\JAVA\kic_boot workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2726330497.index
+\AlbumEx\src\main\java
+D:\JAVA\kic_boot workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2391627118.index
+\web011\src\main\java
+D:\JAVA\kic_boot workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3125974169.index
+\BootMyBatisBoard\src\main\java
+D:\JAVA\kic_boot workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\431905367.index
+\BootJdbcTemplateBoard\src\main\java
+D:\JAVA\kic_boot workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2050572637.index
+\BootMyBatisAnnotationBoard\src\main\java
+D:\JAVA\kic_boot workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1278787913.index
+\web01\src\main\java
+D:\JAVA\kic_boot workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2030032306.index
+\AlbumEx\src\main\java
+D:\JAVA\kic_boot workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1656985332.index
+\web01\src\main\java
+D:\JAVA\kic_boot workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3070128741.index
+\Album01\src\main\java
+D:\JAVA\kic_boot workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1156098648.index
+\BootMyBatisBoard01\src\main\java
+D:\JAVA\kic_boot workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4144061690.index
+\Album01\src\main\java
+D:\JAVA\kic_boot workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\991433291.index
+\BootUpload\src\main\java

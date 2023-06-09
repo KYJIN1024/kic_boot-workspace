@@ -1,0 +1,66 @@
+spring boot
+		환경설정 툴
+		Spring initializr - web
+				  - 프로젝트 구성을 다운로드 받아서 사용
+				  => visual studio code
+				  => intellij
+
+		Spring Tool
+				eclipse + spring tool
+				eclipse + sts(plug-in)
+
+	Window Application(cui, gui)
+	Web Application
+
+	jdk11 - spring 2.x.x
+	jdk17 - spring 3.x.x
+
+	spring 언어
+		java    <- jsp에서 올경우  
+		kotlin  <- android 에서 올경우 
+		groovy	<- 
+
+
+
+외부입력 - args
+	  우편번호 출력 프로젝트 제작..
+
+
+
+com.example.zipcode
+	ZipcodeApplication.java
+			main메서드
+				dao.zipcodeList()
+					-> 우편번호가 출력
+
+com.example.config
+		DatabaseConfiguration.java
+com.example.model
+		ZipcodeTO
+		ZipcodeDAO
+			zipcodeList()
+
+
+
+
+web project
+
+	web 환경구성...
+
+spring boot
+	jsp(x)
+	mvc
+	controller - ...
+
+form.do 	-form.jsp
+form_ok.do	-form_ok.jsp
+
+
+jdbcTemplate 단순게시판 구현
+	*패키지 분리
+
+
+
+
+
+

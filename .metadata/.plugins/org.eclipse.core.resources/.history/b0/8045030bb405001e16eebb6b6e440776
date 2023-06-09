@@ -1,0 +1,13 @@
+package com.example.bootmybatisboard;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class BootMyBatisBoardApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(BootMyBatisBoardApplication.class, args);
+	}
+
+}

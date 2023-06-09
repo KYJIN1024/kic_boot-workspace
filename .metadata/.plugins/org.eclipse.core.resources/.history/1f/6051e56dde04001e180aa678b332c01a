@@ -1,0 +1,10 @@
+package abcd;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class zipcodeDAO {
+
+	@Autowired 
+	
+	
+}
